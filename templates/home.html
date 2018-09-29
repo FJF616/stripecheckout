@@ -3,7 +3,7 @@
 <form action="{% url 'charge' %}" method="post">
   {% csrf_token %}
   <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          data-key="pk_test_H7uewnjg2jKXWSlnvBfFmxzo"
+          data-key="<test key goes here or overide it with context in views.py>"
           data-description="A Django Charge"
           data-amount="500"
           data-locale="auto"></script>
