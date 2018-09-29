@@ -1,0 +1,1 @@
+Stripe checkout implemented with Django.  The backend handles the transaction and uses templates.  NOTE: The version of Django used in this repo is deprecated and will cause some breaking changes if upgraded to current version.  this project is taken directly from this easy to follow tutorial: https://testdriven.io/django-stripe-tutorial
